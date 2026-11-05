@@ -1,0 +1,511 @@
+[
+  {
+    "id": "integrated_science_sample_001",
+    "subject": "integrated_science",
+    "year": 2023,
+    "question_number": 1,
+    "question": "Which of the following diseases is caused by a protozoan and transmitted by the female Anopheles mosquito?",
+    "options": {
+      "A": "Cholera",
+      "B": "Typhoid",
+      "C": "Malaria",
+      "D": "Tuberculosis"
+    },
+    "correct_answer": "C",
+    "topic": "health_and_disease"
+  },
+  {
+    "id": "integrated_science_sample_002",
+    "subject": "integrated_science",
+    "year": 2023,
+    "question_number": 2,
+    "question": "The practice of growing different crops on the same piece of land in a planned sequence is known as",
+    "options": {
+      "A": "mixed farming",
+      "B": "crop rotation",
+      "C": "intercropping",
+      "D": "monoculture"
+    },
+    "correct_answer": "B",
+    "topic": "agriculture"
+  },
+  {
+    "id": "integrated_science_sample_003",
+    "subject": "integrated_science",
+    "year": 2023,
+    "question_number": 3,
+    "question": "The Guinea Savanna vegetation zone in Ghana is characterized by",
+    "options": {
+      "A": "dense evergreen forests",
+      "B": "tall grasses with scattered drought-resistant trees",
+      "C": "mangrove swamps",
+      "D": "short grasses with no trees"
+    },
+    "correct_answer": "B",
+    "topic": "ecology"
+  },
+  {
+    "id": "integrated_science_2007_001",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 1,
+    "question": "Which of the following quantities is not a vector quantity?",
+    "options": {
+      "A": "force",
+      "B": "mass",
+      "C": "velocity",
+      "D": "weight"
+    },
+    "correct_answer": "B",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_002",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 2,
+    "question": "Microbes are useful in the leather industry for?",
+    "options": {
+      "A": "their use in tanning leather",
+      "B": "beautifying leather products",
+      "C": "protecting leather against the environment",
+      "D": "providing raw materials to the industry"
+    },
+    "correct_answer": "A",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_003",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 3,
+    "question": "The inorganic mineral particles of the soil are derived from?",
+    "options": {
+      "A": "decaying animals",
+      "B": "parent rock",
+      "C": "decaying plants",
+      "D": "root nodules"
+    },
+    "correct_answer": "B",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_004",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 4,
+    "question": "One reason for brushing the teeth regularly is to?",
+    "options": {
+      "A": "reduce the amount of saliva in the mouth",
+      "B": "remove dead cheek cells from the mouth",
+      "C": "dilute the alkali content",
+      "D": "reduce bacterial activity in the mouth"
+    },
+    "correct_answer": "D",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_005",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 5,
+    "question": "A converging lens can be used as magnifying glass, only when the object is placed?",
+    "options": {
+      "A": "at the focal point",
+      "B": "between the focal point and a distance twice the focal point",
+      "C": "between the focal point and the optical centre",
+      "D": "at a distance twice the focal length"
+    },
+    "correct_answer": "C",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_006",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 6,
+    "question": "Which of the following compounds represents an alkanol?",
+    "options": {
+      "A": "CH3COH",
+      "B": "CH3COOH",
+      "C": "CH3CH2OH",
+      "D": "CH3COCH3"
+    },
+    "correct_answer": "C",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_007",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 7,
+    "question": "Kinetic and potential energies are known collectively as?",
+    "options": {
+      "A": "chemical energy",
+      "B": "gravitational energy",
+      "C": "mechanical energy",
+      "D": "renewable energy"
+    },
+    "correct_answer": "C",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_008",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 8,
+    "question": "An element A has two electrons in its outer shell. Another element B has six electrons in its outer shell. The most likely compound which can be formed by the combination of the two elements is?",
+    "options": {
+      "A": "AB",
+      "B": "AB2",
+      "C": "A2B",
+      "D": "A2B2"
+    },
+    "correct_answer": "A",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_009",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 9,
+    "question": "Which of the following structures controls the passage of dissolved substances in and out of living cells?",
+    "options": {
+      "A": "cell membrane",
+      "B": "cytoplasm",
+      "C": "Golgi bodies",
+      "D": "nucleus"
+    },
+    "correct_answer": "A",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_010",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 10,
+    "question": "Pollution by carbon monoxide can be minimized by?",
+    "options": {
+      "A": "effective burning of fuel",
+      "B": "incomplete burning of fuel",
+      "C": "using firewood as fuel",
+      "D": "using petrol as fuel"
+    },
+    "correct_answer": "A",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_011",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 11,
+    "question": "Which of the following diseases is correctly matched with the animal it infects?",
+    "options": {
+      "A": "Rinderpest → chicken",
+      "B": "Trypanosomiasis → cattle",
+      "C": "Aspergillosis → pig",
+      "D": "Anthrax → turkey"
+    },
+    "correct_answer": "B",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_012",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 12,
+    "question": "The advantages of family planning does not include?",
+    "options": {
+      "A": "giving each child enough attention",
+      "B": "reducing pressure on social amenities",
+      "C": "preserving the health of the mother",
+      "D": "choosing the sex of children to be born"
+    },
+    "correct_answer": "D",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_013",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 13,
+    "question": "Which of the following statements about non-dehiscent fruits is true?",
+    "options": {
+      "A": "their walls dry at maturity",
+      "B": "their seeds are dispersed by wind",
+      "C": "they contain numerous seeds",
+      "D": "they do not split open when mature"
+    },
+    "correct_answer": "D",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_014",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 14,
+    "question": "A machine has a velocity ratio of 9 and needs an effort of 10 N to lift a load of 50 N. Calculate the efficiency of the machine?",
+    "options": {
+      "A": "5%",
+      "B": "45%",
+      "C": "55%",
+      "D": "90%"
+    },
+    "correct_answer": "C",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_015",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 15,
+    "question": "The breakdown of cellulose by bacteria in ruminants occurs in the?",
+    "options": {
+      "A": "abomasum",
+      "B": "amsum",
+      "C": "reticulum",
+      "D": "rumen"
+    },
+    "correct_answer": "D",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_016",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 16,
+    "question": "A student performed an experiment to determine the percentage of air in a soil sample. The following were the readings: volume of water in measuring cylinder = 500cm3, volume of the soil added to water = 350cm3, volume of soil and water after stirring = 800cm3. What is the percentage of air in the soil?",
+    "options": {
+      "A": "6.25%",
+      "B": "10.36%",
+      "C": "14.28%",
+      "D": "62.50%"
+    },
+    "correct_answer": "A",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_017",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 17,
+    "question": "In computer language, data can be defined as.",
+    "options": {
+      "A": "raw facts that are fed into the computer",
+      "B": "important business decisions stored on the computer",
+      "C": "symbols and letters used in the computer",
+      "D": "programs on a floppy disk"
+    },
+    "correct_answer": "A",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_018",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 18,
+    "question": "A body of mass 100.0 kg moves with a velocity of 8.0 ms−1. Calculate its kinetic energy?",
+    "options": {
+      "A": "400.0 J",
+      "B": "800.0 J",
+      "C": "3200.0 J",
+      "D": "4000.0 J"
+    },
+    "correct_answer": "C",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_019",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 19,
+    "question": "Which of the following characteristics is discontinuous variation?",
+    "options": {
+      "A": "blood group of patients in a hospital",
+      "B": "complexion of members of a church",
+      "C": "height of pupils in a class",
+      "D": "weight of athletes in a team"
+    },
+    "correct_answer": "A",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_020",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 20,
+    "question": "The quantity of heat contained in a body does not depend on the?",
+    "options": {
+      "A": "density of the body",
+      "B": "mass of the body",
+      "C": "temperature of the body",
+      "D": "volume of the body"
+    },
+    "correct_answer": "D",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_021",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 21,
+    "question": "Female circumcision comes with all the following dangers except?",
+    "options": {
+      "A": "development of frigidity.",
+      "B": "excessive loss of blood",
+      "C": "getting infected with diseases",
+      "D": "having children with reduced intelligence"
+    },
+    "correct_answer": "D",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_022",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 22,
+    "question": "Which of the following processes is a physical process?",
+    "options": {
+      "A": "electrolysis",
+      "B": "evaporation",
+      "C": "photosynthesis",
+      "D": "respiration"
+    },
+    "correct_answer": "B",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_023",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 23,
+    "question": "The following are all methods of maintaining sanitation in the community except?",
+    "options": {
+      "A": "clearing of gutters",
+      "B": "draining of stagnant waters",
+      "C": "fitting of mosquito nets to houses",
+      "D": "weeding around houses"
+    },
+    "correct_answer": "C",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_024",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 24,
+    "question": "A body of mass of 40.0 kg climbs a wall 2.0m high. What is the work done against gravity if g=10.0ms-2)?",
+    "options": {
+      "A": "80.0 J",
+      "B": "160.0 J",
+      "C": "200.0 J",
+      "D": "800.0 J"
+    },
+    "correct_answer": "D",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_025",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 25,
+    "question": "One reason why the spinal cord is enclosed in the neural canal is because?",
+    "options": {
+      "A": "it is delicate",
+      "B": "it is located at the back of the body",
+      "C": "its distribution in the body must be restricted",
+      "D": "it is an extension of brain"
+    },
+    "correct_answer": "A",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_026",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 26,
+    "question": "Which of the following tools is an example of a second class lever?",
+    "options": {
+      "A": "a claw hammer",
+      "B": "a pair of tongs",
+      "C": "a pair of scissors",
+      "D": "a wheelbarrow"
+    },
+    "correct_answer": "D",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_027",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 27,
+    "question": "During exhalation, air is forced out of the lungs because?",
+    "options": {
+      "A": "the concentration of carbon dioxide is higher within the lungs",
+      "B": "pressure in the lungs is increased",
+      "C": "the muscles of the diaphragm contract",
+      "D": "the rib cage is raised upwards"
+    },
+    "correct_answer": "B",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_028",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 28,
+    "question": "An electric kettle is rated 2000W, 240V. Which of the following fuse ratings will you recommend for the kettle?",
+    "options": {
+      "A": "5.0A",
+      "B": "8.3A",
+      "C": "13.0A",
+      "D": "15.0A"
+    },
+    "correct_answer": "B",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  },
+  {
+    "id": "integrated_science_2007_029",
+    "subject": "integrated_science",
+    "year": 2007,
+    "question_number": 29,
+    "question": "Which of the following ornamental plants is propagated by seed?",
+    "options": {
+      "A": "Croton",
+      "B": "Ice plant",
+      "C": "Milk bush",
+      "D": "Red Ixora"
+    },
+    "correct_answer": "C",
+    "topic": "general",
+    "source": "worldboss/waec-integrated-science-2007"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "core_maths_sample_001",
+    "subject": "core_maths",
+    "year": 2023,
+    "question_number": 1,
+    "question": "Simplify 3(2x - 4) - 2(x - 5)",
+    "options": {
+      "A": "4x - 2",
+      "B": "4x - 22",
+      "C": "4x + 2",
+      "D": "4x + 22"
+    },
+    "correct_answer": "A",
+    "topic": "algebra"
+  },
+  {
+    "id": "core_maths_sample_002",
+    "subject": "core_maths",
+    "year": 2023,
+    "question_number": 2,
+    "question": "If the mean of 2, 5, (x + 1), (x + 2), 7 and 9 is 6, find the value of x.",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correct_answer": "C",
+    "topic": "statistics"
+  },
+  {
+    "id": "core_maths_sample_003",
+    "subject": "core_maths",
+    "year": 2023,
+    "question_number": 3,
+    "question": "Convert 101101 in base two to base ten.",
+    "options": {
+      "A": "25",
+      "B": "35",
+      "C": "45",
+      "D": "55"
+    },
+    "correct_answer": "C",
+    "topic": "number_theory"
+  }
+]

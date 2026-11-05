@@ -1,0 +1,787 @@
+{
+  "meta": {
+    "run_date": "2026-11-05T22:39:32+00:00",
+    "base_url": "https://api.inference.crusoecloud.com/v1",
+    "temperature": 0.0,
+    "max_tokens": 16384,
+    "seed": 0,
+    "sample": null,
+    "question_count": 41,
+    "questions_per_subject": {
+      "core_maths": 3,
+      "english": 3,
+      "integrated_science": 32,
+      "social_studies": 3
+    },
+    "prompt_template": "The following is a multiple choice question from the West African Senior School Certificate Examination (WASSCE) in {subject}.\n\nQuestion: {question}\n\nA. {option_a}\nB. {option_b}\nC. {option_c}\nD. {option_d}\n\nAnswer with just the letter of the correct option.",
+    "models": [
+      "deepseek-ai/Deepseek-V4-Flash",
+      "deepseek-ai/DeepSeek-V4-Pro",
+      "Qwen/Qwen3.8-27B",
+      "google/gemma-4-31b-it",
+      "openai/gpt-oss-120b",
+      "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B",
+      "nvidia/Nemotron-3.5-Lightning-30B-A3B",
+      "deepseek-ai/DeepSeek-V4.1-Flash",
+      "zai-org/GLM-5.3-Flash",
+      "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "nvidia/NVIDIA-Nemotron-3.5-Super-VL",
+      "zai-org/GLM-5.3",
+      "nvidia/Nemotron-3-Nano-Omni-Reasoning-30B-A3B"
+    ],
+    "skipped_models": [],
+    "live_models": [
+      "deepseek-ai/Deepseek-V4-Flash",
+      "deepseek-ai/DeepSeek-V4-Pro",
+      "Qwen/Qwen3.8-27B",
+      "google/gemma-4-31b-it",
+      "openai/gpt-oss-120b",
+      "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B",
+      "nvidia/Nemotron-3.5-Lightning-30B-A3B",
+      "deepseek-ai/DeepSeek-V4.1-Flash",
+      "zai-org/GLM-5.3-Flash",
+      "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "nvidia/NVIDIA-Nemotron-3.5-Super-VL",
+      "zai-org/GLM-5.3",
+      "nvidia/Nemotron-3-Nano-Omni-Reasoning-30B-A3B"
+    ],
+    "model_extra_params": {
+      "deepseek-ai/Deepseek-V4-Flash": {},
+      "deepseek-ai/DeepSeek-V4-Pro": {},
+      "Qwen/Qwen3.8-27B": {},
+      "google/gemma-4-31b-it": {},
+      "openai/gpt-oss-120b": {},
+      "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B": {},
+      "nvidia/Nemotron-3.5-Lightning-30B-A3B": {},
+      "deepseek-ai/DeepSeek-V4.1-Flash": {},
+      "zai-org/GLM-5.3-Flash": {},
+      "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B": {},
+      "nvidia/NVIDIA-Nemotron-3.5-Super-VL": {},
+      "zai-org/GLM-5.3": {},
+      "nvidia/Nemotron-3-Nano-Omni-Reasoning-30B-A3B": {}
+    },
+    "suspect_key_ids": [
+      "integrated_science_2007_016",
+      "integrated_science_2007_020",
+      "integrated_science_2007_028",
+      "integrated_science_2007_029"
+    ]
+  },
+  "models": [
+    {
+      "model": "nvidia/Nemotron-3-Nano-Omni-Reasoning-30B-A3B",
+      "name": "Nemotron 3 Nano Omni Reasoning 30B",
+      "total": 41,
+      "correct": 39,
+      "accuracy": 0.9512,
+      "total_reviewed": 37,
+      "correct_reviewed": 37,
+      "accuracy_reviewed": 1.0,
+      "unparsed": 0,
+      "errors": 0,
+      "truncated": 0,
+      "prompt_tokens": 4103,
+      "completion_tokens": 14331,
+      "reasoning_tokens": 14167,
+      "cost_usd": 0.0275,
+      "cost_per_1k_questions_usd": 0.6707,
+      "mean_latency_s": 2.027,
+      "input_per_m": 0.3,
+      "output_per_m": 1.83,
+      "subjects": {
+        "core_maths": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "english": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "integrated_science": {
+          "correct": 30,
+          "total": 32,
+          "correct_reviewed": 28,
+          "total_reviewed": 28,
+          "accuracy": 0.9375,
+          "accuracy_reviewed": 1.0
+        },
+        "social_studies": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        }
+      }
+    },
+    {
+      "model": "nvidia/Nemotron-3.5-Lightning-30B-A3B",
+      "name": "Nemotron 3.5 Lightning 30B",
+      "total": 41,
+      "correct": 38,
+      "accuracy": 0.9268,
+      "total_reviewed": 37,
+      "correct_reviewed": 37,
+      "accuracy_reviewed": 1.0,
+      "unparsed": 0,
+      "errors": 0,
+      "truncated": 0,
+      "prompt_tokens": 4103,
+      "completion_tokens": 23908,
+      "reasoning_tokens": 23784,
+      "cost_usd": 0.005,
+      "cost_per_1k_questions_usd": 0.122,
+      "mean_latency_s": 2.806,
+      "input_per_m": 0.05,
+      "output_per_m": 0.2,
+      "subjects": {
+        "core_maths": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "english": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "integrated_science": {
+          "correct": 29,
+          "total": 32,
+          "correct_reviewed": 28,
+          "total_reviewed": 28,
+          "accuracy": 0.9062,
+          "accuracy_reviewed": 1.0
+        },
+        "social_studies": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        }
+      }
+    },
+    {
+      "model": "deepseek-ai/Deepseek-V4-Flash",
+      "name": "DeepSeek V4 Flash 0731",
+      "total": 41,
+      "correct": 37,
+      "accuracy": 0.9024,
+      "total_reviewed": 37,
+      "correct_reviewed": 37,
+      "accuracy_reviewed": 1.0,
+      "unparsed": 0,
+      "errors": 0,
+      "truncated": 0,
+      "prompt_tokens": 4639,
+      "completion_tokens": 2659,
+      "reasoning_tokens": 2536,
+      "cost_usd": 0.0014,
+      "cost_per_1k_questions_usd": 0.0341,
+      "mean_latency_s": 0.8,
+      "input_per_m": 0.14,
+      "output_per_m": 0.28,
+      "subjects": {
+        "core_maths": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "english": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "integrated_science": {
+          "correct": 28,
+          "total": 32,
+          "correct_reviewed": 28,
+          "total_reviewed": 28,
+          "accuracy": 0.875,
+          "accuracy_reviewed": 1.0
+        },
+        "social_studies": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        }
+      }
+    },
+    {
+      "model": "zai-org/GLM-5.3-Flash",
+      "name": "GLM-5.3 Flash",
+      "total": 41,
+      "correct": 37,
+      "accuracy": 0.9024,
+      "total_reviewed": 37,
+      "correct_reviewed": 37,
+      "accuracy_reviewed": 1.0,
+      "unparsed": 0,
+      "errors": 0,
+      "truncated": 0,
+      "prompt_tokens": 3896,
+      "completion_tokens": 6423,
+      "reasoning_tokens": 6248,
+      "cost_usd": 0.0038,
+      "cost_per_1k_questions_usd": 0.0927,
+      "mean_latency_s": 1.171,
+      "input_per_m": 0.15,
+      "output_per_m": 0.5,
+      "subjects": {
+        "core_maths": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "english": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "integrated_science": {
+          "correct": 28,
+          "total": 32,
+          "correct_reviewed": 28,
+          "total_reviewed": 28,
+          "accuracy": 0.875,
+          "accuracy_reviewed": 1.0
+        },
+        "social_studies": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        }
+      }
+    },
+    {
+      "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "name": "DeepSeek V4.1 Flash",
+      "total": 41,
+      "correct": 37,
+      "accuracy": 0.9024,
+      "total_reviewed": 37,
+      "correct_reviewed": 37,
+      "accuracy_reviewed": 1.0,
+      "unparsed": 0,
+      "errors": 0,
+      "truncated": 0,
+      "prompt_tokens": 4639,
+      "completion_tokens": 2567,
+      "reasoning_tokens": 2444,
+      "cost_usd": 0.0044,
+      "cost_per_1k_questions_usd": 0.1073,
+      "mean_latency_s": 0.819,
+      "input_per_m": 0.29,
+      "output_per_m": 1.2,
+      "subjects": {
+        "core_maths": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "english": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "integrated_science": {
+          "correct": 28,
+          "total": 32,
+          "correct_reviewed": 28,
+          "total_reviewed": 28,
+          "accuracy": 0.875,
+          "accuracy_reviewed": 1.0
+        },
+        "social_studies": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        }
+      }
+    },
+    {
+      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "name": "Nemotron 3 Nano 30B",
+      "total": 41,
+      "correct": 37,
+      "accuracy": 0.9024,
+      "total_reviewed": 37,
+      "correct_reviewed": 37,
+      "accuracy_reviewed": 1.0,
+      "unparsed": 0,
+      "errors": 0,
+      "truncated": 0,
+      "prompt_tokens": 4103,
+      "completion_tokens": 21164,
+      "reasoning_tokens": 21041,
+      "cost_usd": 0.0044,
+      "cost_per_1k_questions_usd": 0.1073,
+      "mean_latency_s": 2.575,
+      "input_per_m": 0.05,
+      "output_per_m": 0.2,
+      "subjects": {
+        "core_maths": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "english": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "integrated_science": {
+          "correct": 28,
+          "total": 32,
+          "correct_reviewed": 28,
+          "total_reviewed": 28,
+          "accuracy": 0.875,
+          "accuracy_reviewed": 1.0
+        },
+        "social_studies": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        }
+      }
+    },
+    {
+      "model": "nvidia/NVIDIA-Nemotron-3.5-Super-VL",
+      "name": "Nemotron 3.5 Super VL 120B",
+      "total": 41,
+      "correct": 37,
+      "accuracy": 0.9024,
+      "total_reviewed": 37,
+      "correct_reviewed": 37,
+      "accuracy_reviewed": 1.0,
+      "unparsed": 0,
+      "errors": 0,
+      "truncated": 0,
+      "prompt_tokens": 4103,
+      "completion_tokens": 20069,
+      "reasoning_tokens": 19946,
+      "cost_usd": 0.0084,
+      "cost_per_1k_questions_usd": 0.2049,
+      "mean_latency_s": 10.523,
+      "input_per_m": 0.1,
+      "output_per_m": 0.4,
+      "subjects": {
+        "core_maths": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "english": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "integrated_science": {
+          "correct": 28,
+          "total": 32,
+          "correct_reviewed": 28,
+          "total_reviewed": 28,
+          "accuracy": 0.875,
+          "accuracy_reviewed": 1.0
+        },
+        "social_studies": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        }
+      }
+    },
+    {
+      "model": "deepseek-ai/DeepSeek-V4-Pro",
+      "name": "DeepSeek V4 Pro",
+      "total": 41,
+      "correct": 37,
+      "accuracy": 0.9024,
+      "total_reviewed": 37,
+      "correct_reviewed": 37,
+      "accuracy_reviewed": 1.0,
+      "unparsed": 0,
+      "errors": 0,
+      "truncated": 0,
+      "prompt_tokens": 4639,
+      "completion_tokens": 2962,
+      "reasoning_tokens": 2839,
+      "cost_usd": 0.0184,
+      "cost_per_1k_questions_usd": 0.4488,
+      "mean_latency_s": 0.885,
+      "input_per_m": 1.74,
+      "output_per_m": 3.48,
+      "subjects": {
+        "core_maths": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "english": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "integrated_science": {
+          "correct": 28,
+          "total": 32,
+          "correct_reviewed": 28,
+          "total_reviewed": 28,
+          "accuracy": 0.875,
+          "accuracy_reviewed": 1.0
+        },
+        "social_studies": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        }
+      }
+    },
+    {
+      "model": "zai-org/GLM-5.3",
+      "name": "GLM-5.3",
+      "total": 41,
+      "correct": 37,
+      "accuracy": 0.9024,
+      "total_reviewed": 37,
+      "correct_reviewed": 37,
+      "accuracy_reviewed": 1.0,
+      "unparsed": 0,
+      "errors": 0,
+      "truncated": 0,
+      "prompt_tokens": 3896,
+      "completion_tokens": 5514,
+      "reasoning_tokens": 5391,
+      "cost_usd": 0.0297,
+      "cost_per_1k_questions_usd": 0.7244,
+      "mean_latency_s": 1.051,
+      "input_per_m": 1.4,
+      "output_per_m": 4.4,
+      "subjects": {
+        "core_maths": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "english": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "integrated_science": {
+          "correct": 28,
+          "total": 32,
+          "correct_reviewed": 28,
+          "total_reviewed": 28,
+          "accuracy": 0.875,
+          "accuracy_reviewed": 1.0
+        },
+        "social_studies": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        }
+      }
+    },
+    {
+      "model": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B",
+      "name": "Nemotron 3 Super 120B",
+      "total": 41,
+      "correct": 37,
+      "accuracy": 0.9024,
+      "total_reviewed": 37,
+      "correct_reviewed": 37,
+      "accuracy_reviewed": 1.0,
+      "unparsed": 0,
+      "errors": 0,
+      "truncated": 0,
+      "prompt_tokens": 4103,
+      "completion_tokens": 15801,
+      "reasoning_tokens": 15678,
+      "cost_usd": 0.0392,
+      "cost_per_1k_questions_usd": 0.9561,
+      "mean_latency_s": 8.242,
+      "input_per_m": 0.3,
+      "output_per_m": 2.4,
+      "subjects": {
+        "core_maths": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "english": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "integrated_science": {
+          "correct": 28,
+          "total": 32,
+          "correct_reviewed": 28,
+          "total_reviewed": 28,
+          "accuracy": 0.875,
+          "accuracy_reviewed": 1.0
+        },
+        "social_studies": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        }
+      }
+    },
+    {
+      "model": "openai/gpt-oss-120b",
+      "name": "GPT-OSS 120B",
+      "total": 41,
+      "correct": 37,
+      "accuracy": 0.9024,
+      "total_reviewed": 37,
+      "correct_reviewed": 36,
+      "accuracy_reviewed": 0.973,
+      "unparsed": 0,
+      "errors": 0,
+      "truncated": 0,
+      "prompt_tokens": 6129,
+      "completion_tokens": 5181,
+      "reasoning_tokens": 2897,
+      "cost_usd": 0.0016,
+      "cost_per_1k_questions_usd": 0.039,
+      "mean_latency_s": 0.76,
+      "input_per_m": 0.05,
+      "output_per_m": 0.25,
+      "subjects": {
+        "core_maths": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "english": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "integrated_science": {
+          "correct": 29,
+          "total": 32,
+          "correct_reviewed": 28,
+          "total_reviewed": 28,
+          "accuracy": 0.9062,
+          "accuracy_reviewed": 1.0
+        },
+        "social_studies": {
+          "correct": 2,
+          "total": 3,
+          "correct_reviewed": 2,
+          "total_reviewed": 3,
+          "accuracy": 0.6667,
+          "accuracy_reviewed": 0.6667
+        }
+      }
+    },
+    {
+      "model": "Qwen/Qwen3.8-27B",
+      "name": "Qwen3.8 27B",
+      "total": 41,
+      "correct": 37,
+      "accuracy": 0.9024,
+      "total_reviewed": 37,
+      "correct_reviewed": 36,
+      "accuracy_reviewed": 0.973,
+      "unparsed": 0,
+      "errors": 0,
+      "truncated": 0,
+      "prompt_tokens": 5674,
+      "completion_tokens": 44437,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.0903,
+      "cost_per_1k_questions_usd": 2.2024,
+      "mean_latency_s": 4.346,
+      "input_per_m": 0.25,
+      "output_per_m": 2.0,
+      "subjects": {
+        "core_maths": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "english": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "integrated_science": {
+          "correct": 29,
+          "total": 32,
+          "correct_reviewed": 28,
+          "total_reviewed": 28,
+          "accuracy": 0.9062,
+          "accuracy_reviewed": 1.0
+        },
+        "social_studies": {
+          "correct": 2,
+          "total": 3,
+          "correct_reviewed": 2,
+          "total_reviewed": 3,
+          "accuracy": 0.6667,
+          "accuracy_reviewed": 0.6667
+        }
+      }
+    },
+    {
+      "model": "google/gemma-4-31b-it",
+      "name": "Gemma 4 31B",
+      "total": 41,
+      "correct": 35,
+      "accuracy": 0.8537,
+      "total_reviewed": 37,
+      "correct_reviewed": 35,
+      "accuracy_reviewed": 0.9459,
+      "unparsed": 0,
+      "errors": 0,
+      "truncated": 0,
+      "prompt_tokens": 4028,
+      "completion_tokens": 82,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.0006,
+      "cost_per_1k_questions_usd": 0.0146,
+      "mean_latency_s": 0.376,
+      "input_per_m": 0.14,
+      "output_per_m": 0.4,
+      "subjects": {
+        "core_maths": {
+          "correct": 2,
+          "total": 3,
+          "correct_reviewed": 2,
+          "total_reviewed": 3,
+          "accuracy": 0.6667,
+          "accuracy_reviewed": 0.6667
+        },
+        "english": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        },
+        "integrated_science": {
+          "correct": 27,
+          "total": 32,
+          "correct_reviewed": 27,
+          "total_reviewed": 28,
+          "accuracy": 0.8438,
+          "accuracy_reviewed": 0.9643
+        },
+        "social_studies": {
+          "correct": 3,
+          "total": 3,
+          "correct_reviewed": 3,
+          "total_reviewed": 3,
+          "accuracy": 1.0,
+          "accuracy_reviewed": 1.0
+        }
+      }
+    }
+  ]
+}

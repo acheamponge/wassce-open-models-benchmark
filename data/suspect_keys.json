@@ -1,0 +1,26 @@
+[
+  {
+    "id": "integrated_science_2007_016",
+    "key": "A",
+    "models_said": "C",
+    "reason": "Air volume is 500 + 350 - 800 = 50 cm3. As a share of the 350 cm3 soil sample that is 14.28% (C). The key's 6.25% divides by the 800 cm3 total instead."
+  },
+  {
+    "id": "integrated_science_2007_020",
+    "key": "D",
+    "models_said": "A",
+    "reason": "Heat content is mass times specific heat capacity times temperature. Neither density nor volume appears directly, so A and D are both defensible and the item is ambiguous."
+  },
+  {
+    "id": "integrated_science_2007_028",
+    "key": "B",
+    "models_said": "C",
+    "reason": "2000 W at 240 V draws 8.3 A. A fuse is chosen as the next standard rating above the working current, which is 13 A (C). The key gives the working current itself."
+  },
+  {
+    "id": "integrated_science_2007_029",
+    "key": "C",
+    "models_said": "B",
+    "reason": "Croton, milk bush and ixora are normally raised from stem cuttings. Ice plant is raised from seed. Twelve of thirteen models rejected the key."
+  }
+]

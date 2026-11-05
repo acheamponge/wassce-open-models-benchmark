@@ -1,0 +1,47 @@
+[
+  {
+    "id": "english_sample_001",
+    "subject": "english",
+    "year": 2023,
+    "question_number": 1,
+    "question": "Choose the option that best completes the sentence: The chief, accompanied by his elders, ______ at the durbar.",
+    "options": {
+      "A": "were present",
+      "B": "was present",
+      "C": "are present",
+      "D": "have been present"
+    },
+    "correct_answer": "B",
+    "topic": "grammar"
+  },
+  {
+    "id": "english_sample_002",
+    "subject": "english",
+    "year": 2023,
+    "question_number": 2,
+    "question": "Select the word that has the stress on the second syllable.",
+    "options": {
+      "A": "CHAL-lenge",
+      "B": "com-MAND",
+      "C": "IN-crease",
+      "D": "CER-tain"
+    },
+    "correct_answer": "B",
+    "topic": "oral_english"
+  },
+  {
+    "id": "english_sample_003",
+    "subject": "english",
+    "year": 2023,
+    "question_number": 3,
+    "question": "Choose the option nearest in meaning to the underlined word: The paramount chief was held in high ESTEEM by his subjects.",
+    "options": {
+      "A": "contempt",
+      "B": "suspicion",
+      "C": "regard",
+      "D": "fear"
+    },
+    "correct_answer": "C",
+    "topic": "vocabulary"
+  }
+]

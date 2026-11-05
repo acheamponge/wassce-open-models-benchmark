@@ -1,0 +1,47 @@
+[
+  {
+    "id": "social_studies_sample_001",
+    "subject": "social_studies",
+    "year": 2023,
+    "question_number": 1,
+    "question": "The main objective of ECOWAS is to promote",
+    "options": {
+      "A": "military cooperation among member states",
+      "B": "economic integration among member states",
+      "C": "cultural exchange programs in West Africa",
+      "D": "political unification of West African states"
+    },
+    "correct_answer": "B",
+    "topic": "regional_organizations"
+  },
+  {
+    "id": "social_studies_sample_002",
+    "subject": "social_studies",
+    "year": 2023,
+    "question_number": 2,
+    "question": "The Directive Principles of State Policy in the 1992 Constitution of Ghana are found in",
+    "options": {
+      "A": "Chapter 5",
+      "B": "Chapter 6",
+      "C": "Chapter 7",
+      "D": "Chapter 8"
+    },
+    "correct_answer": "B",
+    "topic": "ghanaian_constitution"
+  },
+  {
+    "id": "social_studies_sample_003",
+    "subject": "social_studies",
+    "year": 2023,
+    "question_number": 3,
+    "question": "Which of the following is NOT a function of the Council of State in Ghana?",
+    "options": {
+      "A": "Advising the President on national issues",
+      "B": "Approving presidential nominations",
+      "C": "Declaring war on behalf of the state",
+      "D": "Considering and advising on matters referred to it by the President"
+    },
+    "correct_answer": "C",
+    "topic": "ghanaian_governance"
+  }
+]

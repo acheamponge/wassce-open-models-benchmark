@@ -1,0 +1,16 @@
+{
+  "deepseek-ai/DeepSeek-V4.1-Flash": {"name": "DeepSeek V4.1 Flash", "provider": "DeepSeek", "input_per_m": 0.29, "output_per_m": 1.20, "context": 1048576},
+  "deepseek-ai/DeepSeek-V4-Pro": {"name": "DeepSeek V4 Pro", "provider": "DeepSeek", "input_per_m": 1.74, "output_per_m": 3.48, "context": 1048576, "deprecated": "2026-11-02"},
+  "deepseek-ai/Deepseek-V4-Flash": {"name": "DeepSeek V4 Flash 0731", "provider": "DeepSeek", "input_per_m": 0.14, "output_per_m": 0.28, "context": 1048576, "deprecated": "2026-11-02"},
+  "google/gemma-4-31b-it": {"name": "Gemma 4 31B", "provider": "Google", "input_per_m": 0.14, "output_per_m": 0.40, "context": 262144},
+  "nvidia/Nemotron-3-Nano-Omni-Reasoning-30B-A3B": {"name": "Nemotron 3 Nano Omni Reasoning 30B", "provider": "NVIDIA", "input_per_m": 0.30, "output_per_m": 1.83, "context": 262144},
+  "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B": {"name": "Nemotron 3 Nano 30B", "provider": "NVIDIA", "input_per_m": 0.05, "output_per_m": 0.20, "context": 262144, "deprecated": "2026-11-02"},
+  "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B": {"name": "Nemotron 3 Super 120B", "provider": "NVIDIA", "input_per_m": 0.30, "output_per_m": 2.40, "context": 262144, "deprecated": "2026-11-02"},
+  "nvidia/Nemotron-3.5-Lightning-30B-A3B": {"name": "Nemotron 3.5 Lightning 30B", "provider": "NVIDIA", "input_per_m": 0.05, "output_per_m": 0.20, "context": 1048576},
+  "nvidia/NVIDIA-Nemotron-3.5-Super-VL": {"name": "Nemotron 3.5 Super VL 120B", "provider": "NVIDIA", "input_per_m": 0.10, "output_per_m": 0.40, "context": 262144},
+  "openai/gpt-oss-120b": {"name": "GPT-OSS 120B", "provider": "OpenAI", "input_per_m": 0.05, "output_per_m": 0.25, "context": 131072},
+  "Qwen/Qwen3.8-27B": {"name": "Qwen3.8 27B", "provider": "Qwen", "input_per_m": 0.25, "output_per_m": 2.00, "context": 262144},
+  "zai-org/GLM-5.3": {"name": "GLM-5.3", "provider": "Z.ai", "input_per_m": 1.40, "output_per_m": 4.40, "context": 1048576},
+  "zai-org/GLM-5.3-Flash": {"name": "GLM-5.3 Flash", "provider": "Z.ai", "input_per_m": 0.15, "output_per_m": 0.50, "context": 1048576},
+  "nvidia/Nemotron-3-VoiceChat": {"name": "Nemotron 3 VoiceChat", "provider": "NVIDIA", "skip": true, "reason": "speech-to-speech model, not a chat model"}
+}

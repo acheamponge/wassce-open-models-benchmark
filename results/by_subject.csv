@@ -1,0 +1,53 @@
+model,name,subject,correct,total,accuracy,correct_reviewed,total_reviewed,accuracy_reviewed
+nvidia/Nemotron-3-Nano-Omni-Reasoning-30B-A3B,Nemotron 3 Nano Omni Reasoning 30B,core_maths,3,3,1.0,3,3,1.0
+nvidia/Nemotron-3-Nano-Omni-Reasoning-30B-A3B,Nemotron 3 Nano Omni Reasoning 30B,english,3,3,1.0,3,3,1.0
+nvidia/Nemotron-3-Nano-Omni-Reasoning-30B-A3B,Nemotron 3 Nano Omni Reasoning 30B,integrated_science,30,32,0.9375,28,28,1.0
+nvidia/Nemotron-3-Nano-Omni-Reasoning-30B-A3B,Nemotron 3 Nano Omni Reasoning 30B,social_studies,3,3,1.0,3,3,1.0
+nvidia/Nemotron-3.5-Lightning-30B-A3B,Nemotron 3.5 Lightning 30B,core_maths,3,3,1.0,3,3,1.0
+nvidia/Nemotron-3.5-Lightning-30B-A3B,Nemotron 3.5 Lightning 30B,english,3,3,1.0,3,3,1.0
+nvidia/Nemotron-3.5-Lightning-30B-A3B,Nemotron 3.5 Lightning 30B,integrated_science,29,32,0.9062,28,28,1.0
+nvidia/Nemotron-3.5-Lightning-30B-A3B,Nemotron 3.5 Lightning 30B,social_studies,3,3,1.0,3,3,1.0
+deepseek-ai/Deepseek-V4-Flash,DeepSeek V4 Flash 0731,core_maths,3,3,1.0,3,3,1.0
+deepseek-ai/Deepseek-V4-Flash,DeepSeek V4 Flash 0731,english,3,3,1.0,3,3,1.0
+deepseek-ai/Deepseek-V4-Flash,DeepSeek V4 Flash 0731,integrated_science,28,32,0.875,28,28,1.0
+deepseek-ai/Deepseek-V4-Flash,DeepSeek V4 Flash 0731,social_studies,3,3,1.0,3,3,1.0
+zai-org/GLM-5.3-Flash,GLM-5.3 Flash,core_maths,3,3,1.0,3,3,1.0
+zai-org/GLM-5.3-Flash,GLM-5.3 Flash,english,3,3,1.0,3,3,1.0
+zai-org/GLM-5.3-Flash,GLM-5.3 Flash,integrated_science,28,32,0.875,28,28,1.0
+zai-org/GLM-5.3-Flash,GLM-5.3 Flash,social_studies,3,3,1.0,3,3,1.0
+deepseek-ai/DeepSeek-V4.1-Flash,DeepSeek V4.1 Flash,core_maths,3,3,1.0,3,3,1.0
+deepseek-ai/DeepSeek-V4.1-Flash,DeepSeek V4.1 Flash,english,3,3,1.0,3,3,1.0
+deepseek-ai/DeepSeek-V4.1-Flash,DeepSeek V4.1 Flash,integrated_science,28,32,0.875,28,28,1.0
+deepseek-ai/DeepSeek-V4.1-Flash,DeepSeek V4.1 Flash,social_studies,3,3,1.0,3,3,1.0
+nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B,Nemotron 3 Nano 30B,core_maths,3,3,1.0,3,3,1.0
+nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B,Nemotron 3 Nano 30B,english,3,3,1.0,3,3,1.0
+nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B,Nemotron 3 Nano 30B,integrated_science,28,32,0.875,28,28,1.0
+nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B,Nemotron 3 Nano 30B,social_studies,3,3,1.0,3,3,1.0
+nvidia/NVIDIA-Nemotron-3.5-Super-VL,Nemotron 3.5 Super VL 120B,core_maths,3,3,1.0,3,3,1.0
+nvidia/NVIDIA-Nemotron-3.5-Super-VL,Nemotron 3.5 Super VL 120B,english,3,3,1.0,3,3,1.0
+nvidia/NVIDIA-Nemotron-3.5-Super-VL,Nemotron 3.5 Super VL 120B,integrated_science,28,32,0.875,28,28,1.0
+nvidia/NVIDIA-Nemotron-3.5-Super-VL,Nemotron 3.5 Super VL 120B,social_studies,3,3,1.0,3,3,1.0
+deepseek-ai/DeepSeek-V4-Pro,DeepSeek V4 Pro,core_maths,3,3,1.0,3,3,1.0
+deepseek-ai/DeepSeek-V4-Pro,DeepSeek V4 Pro,english,3,3,1.0,3,3,1.0
+deepseek-ai/DeepSeek-V4-Pro,DeepSeek V4 Pro,integrated_science,28,32,0.875,28,28,1.0
+deepseek-ai/DeepSeek-V4-Pro,DeepSeek V4 Pro,social_studies,3,3,1.0,3,3,1.0
+zai-org/GLM-5.3,GLM-5.3,core_maths,3,3,1.0,3,3,1.0
+zai-org/GLM-5.3,GLM-5.3,english,3,3,1.0,3,3,1.0
+zai-org/GLM-5.3,GLM-5.3,integrated_science,28,32,0.875,28,28,1.0
+zai-org/GLM-5.3,GLM-5.3,social_studies,3,3,1.0,3,3,1.0
+nvidia/NVIDIA-Nemotron-3-Super-120B-A12B,Nemotron 3 Super 120B,core_maths,3,3,1.0,3,3,1.0
+nvidia/NVIDIA-Nemotron-3-Super-120B-A12B,Nemotron 3 Super 120B,english,3,3,1.0,3,3,1.0
+nvidia/NVIDIA-Nemotron-3-Super-120B-A12B,Nemotron 3 Super 120B,integrated_science,28,32,0.875,28,28,1.0
+nvidia/NVIDIA-Nemotron-3-Super-120B-A12B,Nemotron 3 Super 120B,social_studies,3,3,1.0,3,3,1.0
+openai/gpt-oss-120b,GPT-OSS 120B,core_maths,3,3,1.0,3,3,1.0
+openai/gpt-oss-120b,GPT-OSS 120B,english,3,3,1.0,3,3,1.0
+openai/gpt-oss-120b,GPT-OSS 120B,integrated_science,29,32,0.9062,28,28,1.0
+openai/gpt-oss-120b,GPT-OSS 120B,social_studies,2,3,0.6667,2,3,0.6667
+Qwen/Qwen3.8-27B,Qwen3.8 27B,core_maths,3,3,1.0,3,3,1.0
+Qwen/Qwen3.8-27B,Qwen3.8 27B,english,3,3,1.0,3,3,1.0
+Qwen/Qwen3.8-27B,Qwen3.8 27B,integrated_science,29,32,0.9062,28,28,1.0
+Qwen/Qwen3.8-27B,Qwen3.8 27B,social_studies,2,3,0.6667,2,3,0.6667
+google/gemma-4-31b-it,Gemma 4 31B,core_maths,2,3,0.6667,2,3,0.6667
+google/gemma-4-31b-it,Gemma 4 31B,english,3,3,1.0,3,3,1.0
+google/gemma-4-31b-it,Gemma 4 31B,integrated_science,27,32,0.8438,27,28,0.9643
+google/gemma-4-31b-it,Gemma 4 31B,social_studies,3,3,1.0,3,3,1.0

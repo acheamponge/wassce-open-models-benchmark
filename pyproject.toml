@@ -1,0 +1,10 @@
+[project]
+name = "wassce-benchmark"
+version = "0.1.0"
+description = "Open models on Crusoe Managed Inference against WASSCE past questions"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.32",
+    "python-dotenv>=1.0",
+    "matplotlib>=3.9",
+]

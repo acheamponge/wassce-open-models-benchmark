@@ -1,0 +1,14 @@
+rank,model,name,accuracy_reviewed,correct_reviewed,total_reviewed,accuracy,correct,total,acc_core_maths,acc_english,acc_integrated_science,acc_social_studies,unparsed,errors,truncated,prompt_tokens,completion_tokens,reasoning_tokens,cost_usd,cost_per_1k_questions_usd,mean_latency_s,input_per_m,output_per_m
+1,nvidia/Nemotron-3-Nano-Omni-Reasoning-30B-A3B,Nemotron 3 Nano Omni Reasoning 30B,1.0,37,37,0.9512,39,41,1.0,1.0,1.0,1.0,0,0,0,4103,14331,14167,0.0275,0.6707,2.027,0.3,1.83
+2,nvidia/Nemotron-3.5-Lightning-30B-A3B,Nemotron 3.5 Lightning 30B,1.0,37,37,0.9268,38,41,1.0,1.0,1.0,1.0,0,0,0,4103,23908,23784,0.005,0.122,2.806,0.05,0.2
+3,deepseek-ai/Deepseek-V4-Flash,DeepSeek V4 Flash 0731,1.0,37,37,0.9024,37,41,1.0,1.0,1.0,1.0,0,0,0,4639,2659,2536,0.0014,0.0341,0.8,0.14,0.28
+4,zai-org/GLM-5.3-Flash,GLM-5.3 Flash,1.0,37,37,0.9024,37,41,1.0,1.0,1.0,1.0,0,0,0,3896,6423,6248,0.0038,0.0927,1.171,0.15,0.5
+5,deepseek-ai/DeepSeek-V4.1-Flash,DeepSeek V4.1 Flash,1.0,37,37,0.9024,37,41,1.0,1.0,1.0,1.0,0,0,0,4639,2567,2444,0.0044,0.1073,0.819,0.29,1.2
+6,nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B,Nemotron 3 Nano 30B,1.0,37,37,0.9024,37,41,1.0,1.0,1.0,1.0,0,0,0,4103,21164,21041,0.0044,0.1073,2.575,0.05,0.2
+7,nvidia/NVIDIA-Nemotron-3.5-Super-VL,Nemotron 3.5 Super VL 120B,1.0,37,37,0.9024,37,41,1.0,1.0,1.0,1.0,0,0,0,4103,20069,19946,0.0084,0.2049,10.523,0.1,0.4
+8,deepseek-ai/DeepSeek-V4-Pro,DeepSeek V4 Pro,1.0,37,37,0.9024,37,41,1.0,1.0,1.0,1.0,0,0,0,4639,2962,2839,0.0184,0.4488,0.885,1.74,3.48
+9,zai-org/GLM-5.3,GLM-5.3,1.0,37,37,0.9024,37,41,1.0,1.0,1.0,1.0,0,0,0,3896,5514,5391,0.0297,0.7244,1.051,1.4,4.4
+10,nvidia/NVIDIA-Nemotron-3-Super-120B-A12B,Nemotron 3 Super 120B,1.0,37,37,0.9024,37,41,1.0,1.0,1.0,1.0,0,0,0,4103,15801,15678,0.0392,0.9561,8.242,0.3,2.4
+11,openai/gpt-oss-120b,GPT-OSS 120B,0.973,36,37,0.9024,37,41,1.0,1.0,1.0,0.6667,0,0,0,6129,5181,2897,0.0016,0.039,0.76,0.05,0.25
+12,Qwen/Qwen3.8-27B,Qwen3.8 27B,0.973,36,37,0.9024,37,41,1.0,1.0,1.0,0.6667,0,0,0,5674,44437,0,0.0903,2.2024,4.346,0.25,2.0
+13,google/gemma-4-31b-it,Gemma 4 31B,0.9459,35,37,0.8537,35,41,0.6667,1.0,0.9643,1.0,0,0,0,4028,82,0,0.0006,0.0146,0.376,0.14,0.4
